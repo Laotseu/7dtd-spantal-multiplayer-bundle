@@ -1,4 +1,8 @@
 <configs>
+	<!-- Remove recipies from MotorcycleAlterations  -->
+	<remove xpath="//recipe[contains(@name,'maVehicleMotorcycle')]" />
+	<remove xpath="//recipe/ingredient[contains(@name,'maVehicleMotorcycle')]/.." />
+
 	<append xpath="/recipes" >
 
 		<!-- 4x4 -->
@@ -107,6 +111,12 @@
 			<ingredient name="drinkJarGrainAlcohol" count="5"/>
 		</recipe>
 
+		<recipe name="pjVehicleMotorcycleWhitePlaceable" count="1">
+			<ingredient name="pjVehicleMotorcycleBlackAndRedPlaceable" count="1"/>
+			<ingredient name="resourceAcid" count="1"/>
+			<ingredient name="drinkJarGrainAlcohol" count="5"/>
+		</recipe>
+
 
 		<recipe name="vehicleMotorcyclePlaceable" count="1">
 			<ingredient name="pjVehicleMotorcycleWhitePlaceable" count="1"/>
@@ -124,6 +134,11 @@
 		</recipe>
 
 		<recipe name="pjVehicleMotorcycleBluePlaceable" count="1">
+			<ingredient name="pjVehicleMotorcycleWhitePlaceable" count="1"/>
+			<ingredient name="resourcePaint" count="15"/>
+		</recipe>
+
+		<recipe name="pjVehicleMotorcycleBlackAndRedPlaceable" count="1">
 			<ingredient name="pjVehicleMotorcycleWhitePlaceable" count="1"/>
 			<ingredient name="resourcePaint" count="15"/>
 		</recipe>
@@ -294,9 +309,96 @@
 		</recipe>
 
 
+		<recipe name="pjVehicleMotorcycleBlackAndRedPlaceable" count="1" >
+			<ingredient name="pjVehicleMotorcycleBlackAndRedNoSpikePlaceable" count="1"/>
+		</recipe>
+		<recipe name="pjVehicleMotorcycleBlackAndRedPlaceable" count="1" >
+			<ingredient name="pjVehicleMotorcycleBlackAndRedNoShieldPlaceable" count="1"/>
+		</recipe>
+		<recipe name="pjVehicleMotorcycleBlackAndRedPlaceable" count="1" >
+			<ingredient name="pjVehicleMotorcycleBlackAndRedNoHoodPlaceable" count="1"/>
+		</recipe>
+
+		<recipe name="pjVehicleMotorcycleBlackAndRedNoSpikePlaceable" count="1" >
+			<ingredient name="pjVehicleMotorcycleBlackAndRedPlaceable" count="1"/>
+		</recipe>
+		<recipe name="pjVehicleMotorcycleBlackAndRedNoSpikePlaceable" count="1" >
+			<ingredient name="pjVehicleMotorcycleBlackAndRedNoShieldPlaceable" count="1"/>
+		</recipe>
+		<recipe name="pjVehicleMotorcycleBlackAndRedNoSpikePlaceable" count="1" >
+			<ingredient name="pjVehicleMotorcycleBlackAndRedNoHoodPlaceable" count="1"/>
+		</recipe>
+
+		<recipe name="pjVehicleMotorcycleBlackAndRedNoShieldPlaceable" count="1" >
+			<ingredient name="pjVehicleMotorcycleBlackAndRedNoSpikePlaceable" count="1"/>
+		</recipe>
+		<recipe name="pjVehicleMotorcycleBlackAndRedNoShieldPlaceable" count="1" >
+			<ingredient name="pjVehicleMotorcycleBlackAndRedPlaceable" count="1"/>
+		</recipe>
+		<recipe name="pjVehicleMotorcycleBlackAndRedNoShieldPlaceable" count="1" >
+			<ingredient name="pjVehicleMotorcycleBlackAndRedNoHoodPlaceable" count="1"/>
+		</recipe>
+
+		<recipe name="pjVehicleMotorcycleBlackAndRedNoHoodPlaceable" count="1" >
+			<ingredient name="pjVehicleMotorcycleBlackAndRedNoSpikePlaceable" count="1"/>
+		</recipe>
+		<recipe name="pjVehicleMotorcycleBlackAndRedNoHoodPlaceable" count="1" >
+			<ingredient name="pjVehicleMotorcycleBlackAndRedNoShieldPlaceable" count="1"/>
+		</recipe>
+		<recipe name="pjVehicleMotorcycleBlackAndRedNoHoodPlaceable" count="1" >
+			<ingredient name="pjVehicleMotorcycleBlackAndRedPlaceable" count="1"/>
+		</recipe>
+
+
+		<!-- Motorcycle variations (copied from MotorcycleVariations) -->
+		<recipe name="vehicleMotorcyclePlaceable" count="1" >
+			<ingredient name="maVehicleMotorcycleNoSpikePlaceable" count="1"/>
+		</recipe>
+		<recipe name="vehicleMotorcyclePlaceable" count="1" >
+			<ingredient name="maVehicleMotorcycleNoShieldPlaceable" count="1"/>
+		</recipe>
+		<recipe name="vehicleMotorcyclePlaceable" count="1" >
+			<ingredient name="maVehicleMotorcycleNoHoodPlaceable" count="1"/>
+		</recipe>
+
+		<recipe name="maVehicleMotorcycleNoSpikePlaceable" count="1" >
+			<ingredient name="vehicleMotorcyclePlaceable" count="1"/>
+		</recipe>
+		<recipe name="maVehicleMotorcycleNoSpikePlaceable" count="1" >
+			<ingredient name="maVehicleMotorcycleNoShieldPlaceable" count="1"/>
+		</recipe>
+		<recipe name="maVehicleMotorcycleNoSpikePlaceable" count="1" >
+			<ingredient name="maVehicleMotorcycleNoHoodPlaceable" count="1"/>
+		</recipe>
+
+		<recipe name="maVehicleMotorcycleNoShieldPlaceable" count="1" >
+			<ingredient name="maVehicleMotorcycleNoSpikePlaceable" count="1"/>
+		</recipe>
+		<recipe name="maVehicleMotorcycleNoShieldPlaceable" count="1" >
+			<ingredient name="vehicleMotorcyclePlaceable" count="1"/>
+		</recipe>
+		<recipe name="maVehicleMotorcycleNoShieldPlaceable" count="1" >
+			<ingredient name="maVehicleMotorcycleNoHoodPlaceable" count="1"/>
+		</recipe>
+
+		<recipe name="maVehicleMotorcycleNoHoodPlaceable" count="1" >
+			<ingredient name="maVehicleMotorcycleNoSpikePlaceable" count="1"/>
+		</recipe>
+		<recipe name="maVehicleMotorcycleNoHoodPlaceable" count="1" >
+			<ingredient name="maVehicleMotorcycleNoShieldPlaceable" count="1"/>
+		</recipe>
+		<recipe name="maVehicleMotorcycleNoHoodPlaceable" count="1" >
+			<ingredient name="vehicleMotorcyclePlaceable" count="1"/>
+		</recipe>
+
 		<!-- Bicycles -->
 		<recipe name="pjVehicleBicycleWhitePlaceable" count="1">
 			<ingredient name="vehicleBicyclePlaceable" count="1"/>
+			<ingredient name="drinkJarGrainAlcohol" count="2"/>
+		</recipe>
+
+		<recipe name="pjVehicleBicycleWhitePlaceable" count="1">
+			<ingredient name="pjVehicleBicycleBlackPlaceable" count="1"/>
 			<ingredient name="drinkJarGrainAlcohol" count="2"/>
 		</recipe>
 
@@ -331,6 +433,11 @@
 			<ingredient name="resourcePaint" count="5"/>
 		</recipe>
 
+		<recipe name="pjVehicleBicycleBlackPlaceable" count="1">
+			<ingredient name="pjVehicleBicycleWhitePlaceable" count="1"/>
+			<ingredient name="resourcePaint" count="5"/>
+		</recipe>
+
 		<recipe name="pjVehicleBicycleBluePlaceable" count="1">
 			<ingredient name="pjVehicleBicycleWhitePlaceable" count="1"/>
 			<ingredient name="resourcePaint" count="5"/>
@@ -355,6 +462,7 @@
 			<ingredient name="pjVehicleBicycleWhitePlaceable" count="1"/>
 			<ingredient name="resourcePaint" count="5"/>
 		</recipe>
+
 
 	</append>
 </configs>

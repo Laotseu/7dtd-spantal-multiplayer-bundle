@@ -1,9 +1,15 @@
 **PaintJob** Change the colour of FinPims vehicles.
 
-![PaintJob](https://raw.githubusercontent.com/Laotseu/7dtdMods/PaintJob_v1.12/PaintJob/PaintJob.png)
+![PaintJob](https://raw.githubusercontent.com/Laotseu/7dtdMods/PaintJob_v1.13/PaintJob/PaintJob.png)
 
 **Important:** For this modlet to work properly, it needs to be installed on the **server** and **every player's computer**.
 
+**Note: As of version 1.13, MotorcycleAlterations is integrated into PaintJob. I advise to uninstall MotorcycleAlterations if you use PaintJob.**
+
+* 1.13: Back in Black
+	- Black and Red motorcycle
+	- Black bycicle	
+	- Integrated MotorcycleAlterations
 * 1.12: Bicycle and motorcycle
 	- Bicycles: white, blue, green, cyan, pink red, and the original yellow
 	- Motorcycles: red, white, green and gold, blue and original
@@ -40,5 +46,5 @@
 
 * Thanks to Manux for headlight that actually light up.
 
-[click here for Modlet Instalation instruction](https://github.com/Laotseu/7dtdMods/blob/master/Modlet%20Installation.md)
+[click here for Modlet Installation instruction](https://github.com/Laotseu/7dtdMods/blob/master/Modlet%20Installation.md)
 [Click here for a list of all my mods](https://github.com/Laotseu/7dtdMods/blob/master/README.md)

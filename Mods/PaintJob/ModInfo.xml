@@ -5,7 +5,7 @@
 		<Name value="PaintJob" />
 		<Description value="New colour schemes for FunPims vehicles" />
 		<Author value="Éric Beaudon" />
-		<Version value="1.12" />
+		<Version value="1.13" />
 	</ModInfo>
 
 	<!--
@@ -35,5 +35,8 @@
 				More prep work for the motorcycles -->
 	<!-- v1.12: Bicycles: white, blue, green, cyan, pink red, and the original yellow
 				Motorcycles: red, white, green and gold, blue, and original
-							 integrated Motorcycle Alterations with colours (lots or recipies) -->
+				integrated Motorcycle Alterations with colours (lots or recipies) -->
+	<!-- v1.13: Black motorcycle
+				Black bicycle
+				Integrated MotorcycleAlterations -->
 </xml>
