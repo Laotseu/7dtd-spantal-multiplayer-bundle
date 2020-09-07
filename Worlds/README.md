@@ -1,7 +1,7 @@
 Wasteland Only Valley
 =====================
 
-These filles are a 7 DAys to Die generated world where there is only one biome: Wasteland. I've also tweaked the generation to include all the ore types. Oil Shells are not presnet in normal wasteland biome.
+These filles are a 7 DAys to Die generated world where there is only one biome: Wasteland. I've also tweaked the generation to include all the ore types. Oil Shales are not present in normal wasteland biome.
 
 
 How to install
