@@ -1,7 +1,7 @@
 Wasteland Only Valley
 =====================
 
-![wasteland_series.png](https://raw.githubusercontent.com/Laotseu/7dtd-spantan-multiplayer-bundle/master/Worlds/wasteland_series.png)
+[![wasteland_series.png](https://raw.githubusercontent.com/Laotseu/7dtd-spantan-multiplayer-bundle/master/Worlds/wasteland_series.png)](https://www.youtube.com/c/GrandSpartanMP/)
 My friend [Grand Spartan](https://www.youtube.com/c/GrandSpartanMP/) always has crazy ideas for his 7 Days to Die [stream](https://www.youtube.com/c/GrandSpartanMP/). In this instance, he wanted a world with only one biome: Wasteland. 
 
 The ZIP files in this folder are the rusult. I've also tweaked the generation to include all the ore types. Oil Shales are not present in normal wasteland biome.
