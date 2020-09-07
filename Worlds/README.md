@@ -18,4 +18,4 @@ The world is available as a multipart ZIP file. I had to split the ZIP since Git
 ![Generating_new_game.png](https://raw.githubusercontent.com/Laotseu/7dtd-spantan-multiplayer-bundle/master/Worlds/Generating_new_game.png)
 4. Play the game.
 5. ...
-6. Profit (Maybe, mostly horrible death by vaultures and bears. Don't say you were not warned.).
+6. Profit (Maybe, mostly horrible death by vaultures and bears. Don't say you were not warned.)
