@@ -18,7 +18,7 @@
 
 		<entity_class name="pjVehicle4x4TruckRed" extends="vehicle4x4Truck">
 			<property name="Tags" value="vehicle"/>
-			<property name="Prefab" value="#@modfolder:Resources/pjJeeps.unity3d?var_Jeep_red"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjJeeps.unity3d?var_Jeep_red_hotwheels"/>
 		</entity_class>
 
 		<entity_class name="pjVehicle4x4TruckSpartan" extends="vehicle4x4Truck">
@@ -49,6 +49,11 @@
 		<entity_class name="pjVehicle4x4War3zUK" extends="vehicle4x4Truck">
 			<property name="Tags" value="vehicle"/>
 			<property name="Prefab" value="#@modfolder:Resources/pjJeepsUK.unity3d?var_4x4_UK-war3zuk"/>
+		</entity_class>
+
+		<entity_class name="pjVehicle4x4TruckGreen" extends="vehicle4x4Truck">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjJeeps.unity3d?var_Jeep_green"/>
 		</entity_class>
 
 
@@ -158,6 +163,28 @@
 			<property name="Prefab" value="#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_black_and_red_nohood"/>
 		</entity_class>
 		
+
+		<entity_class name="pjVehicleMotorcyclePink" extends="vehicleMotorcycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_pink"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleMotorcyclePinkNoSpike" extends="vehicleMotorcycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_pink_nospike"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleMotorcyclePinkNoShield" extends="vehicleMotorcycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_pink_noshield"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleMotorcyclePinkNoHood" extends="vehicleMotorcycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_pink_nohood"/>
+		</entity_class>
+		
+
 		<!-- For the base model (copied from MotorcycleAlterations) -->
 		<entity_class name="pjVehicleMotorcycleNoSpike" extends="vehicleMotorcycle">
 			<property name="Tags" value="vehicle"/>
