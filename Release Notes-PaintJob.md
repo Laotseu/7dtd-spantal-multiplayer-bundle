@@ -1,11 +1,26 @@
 **PaintJob** Change the colour of FinPims vehicles.
 
-![PaintJob](https://raw.githubusercontent.com/Laotseu/7dtdMods/PaintJob_v1.13/PaintJob/PaintJob.png)
+![PaintJob](https://raw.githubusercontent.com/Laotseu/7dtdMods/PaintJob_v1.16/PaintJob/PaintJob.png)
 
 **Important:** For this modlet to work properly, it needs to be installed on the **server** and **every player's computer**.
 
-**Note: As of version 1.13, MotorcycleAlterations is integrated into PaintJob. I advise to uninstall MotorcycleAlterations if you use PaintJob.**
+**Note: As of version 1.13+, MotorcycleAlterations is integrated into PaintJob. I advise to uninstall MotorcycleAlterations if you use PaintJob.**
 
+* 1.16: 4x4 Texture overhaul
+	- Texture refactoring for the 4x4 (from 5 bitmaps to 2)
+	- Fix Green Camo texture (Be Bear Aware)
+	- Fix War3zUK texture (Scottish flag instead of the inverted Union flag)
+	- Little overhaul of the Spartan texture
+	- Complete overhaul of the red jeep
+	- Add a windshield to Miss Spartan's jeep
+	- Fix a cliping issue with the chain
+* 1.15: More designs
+	- Pink Motorcycle (for MaryB)
+	- Green Camo Jeep
+* 1.14: Minibikes
+	- Minibikes available in orange (original colour), black, blue, green, piink, red, teal, white, and yellow
+	- Remove acid from the recipes
+	- Cut down textures size from 2K down to 1K for everything but the Jeeps
 * 1.13: Back in Black
 	- Black and Red motorcycle
 	- Black bycicle	
